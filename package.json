@@ -1,0 +1,29 @@
+{
+  "name": "css-writing-mode",
+  "version": "0.0.1",
+  "homepage": "http://github.com/mrmrs/css-writing-mode",
+  "description": "Css module of single purpose classes for writing mode",
+  "keywords": [
+    "css",
+    "oocss",
+    "",
+    ""
+  ],
+  "css-writing-mode": {
+    "type": "git",
+    "url": "http://github.com/mrmrs/css-writing-mode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrmrs/repo/issues",
+    "email": "hi@mrmrs.cc"
+  },
+  "author": {
+    "name": "Adam Morse",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "contributors": [
+    { "name": "Adam Morse", "email": "hi@mrmrs.cc" }
+  ],
+  "license": "MIT"
+}
