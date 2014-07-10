@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "writing-mode"
   ],
   "css-writing-mode": {
     "type": "git",
