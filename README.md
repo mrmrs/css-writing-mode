@@ -28,7 +28,7 @@ or download the css on github and include in your project.
 .wm-lr-bt {         writing-mode: lr-bt; }
 .wm-rl-bt {         writing-mode: rl-bt; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .wm-horizontal-tb-ns { writing-mode: horizontal-tb; }
   .wm-rl-tb-ns {         writing-mode: rl-tb; }
   .wm-vertical-lr-ns {   writing-mode: vertical-lr; }
@@ -39,7 +39,7 @@ or download the css on github and include in your project.
   .wm-rl-bt-ns {         writing-mode: rl-bt; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .wm-horizontal-tb-m { writing-mode: horizontal-tb; }
   .wm-rl-tb-m {         writing-mode: rl-tb; }
   .wm-vertical-lr-m {   writing-mode: vertical-lr; }
@@ -50,7 +50,7 @@ or download the css on github and include in your project.
   .wm-rl-bt-m {         writing-mode: rl-bt; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .wm-horizontal-tb-l { writing-mode: horizontal-tb; }
   .wm-rl-tb-l {         writing-mode: rl-tb; }
   .wm-vertical-lr-l {   writing-mode: vertical-lr; }
