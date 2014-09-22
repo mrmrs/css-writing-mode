@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-writing-mode)
 ## File Size
 
 1.7K writing-mode.css
-1.2K writing-mode.min.css
+1.2K writing-mode.min.css 
+248B minified and gzipped
 
 ## The Code
 ```
