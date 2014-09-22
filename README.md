@@ -9,13 +9,18 @@
 *  -l  = large
 
 ## Install
+Grab the css partial from github and include it in your project or alternatively
+you can install it via npm:
 ```
 npm install --save-dev css-writing-mode
 ```
-or download the css on github and include in your project.
+View on [npm](https://www.npmjs.org/package/css-writing-mode)
+
 
 ## File Size
 
+1.7K writing-mode.css
+1.2K writing-mode.min.css
 
 ## The Code
 ```
