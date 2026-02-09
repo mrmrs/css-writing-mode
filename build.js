@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { transform } = require('lightningcss');
 
-const srcFile = path.join(__dirname, 'src', 'css-writing-mode.css');
+const srcFile = path.join(__dirname, 'src', 'writing-mode.css');
 const distDir = path.join(__dirname, 'dist');
 
 // Read source
@@ -15,22 +15,22 @@ if (!fs.existsSync(distDir)) {
 
 // Unminified — just normalize formatting
 const { code: unminified } = transform({
-  filename: 'css-writing-mode.css',
+  filename: 'writing-mode.css',
   code: Buffer.from(source),
   minify: false,
 });
 
-fs.writeFileSync(path.join(distDir, 'css-writing-mode.css'), unminified);
+fs.writeFileSync(path.join(distDir, 'writing-mode.css'), unminified);
 
 // Minified
 const { code: minified } = transform({
-  filename: 'css-writing-mode.css',
+  filename: 'writing-mode.css',
   code: Buffer.from(source),
   minify: true,
 });
 
-fs.writeFileSync(path.join(distDir, 'css-writing-mode.min.css'), minified);
+fs.writeFileSync(path.join(distDir, 'writing-mode.min.css'), minified);
 
 console.log('Build complete:');
-console.log(`  dist/css-writing-mode.css     ${unminified.length} bytes`);
-console.log(`  dist/css-writing-mode.min.css ${minified.length} bytes`);
+console.log(`  dist/writing-mode.css     ${unminified.length} bytes`);
+console.log(`  dist/writing-mode.min.css ${minified.length} bytes`);
