@@ -12,7 +12,7 @@
 .wm-lr-bt {         writing-mode: lr-bt; }
 .wm-rl-bt {         writing-mode: rl-bt; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .wm-horizontal-tb-s { writing-mode: horizontal-tb; }
   .wm-rl-tb-s {         writing-mode: rl-tb; }
   .wm-vertical-lr-s {   writing-mode: vertical-lr; }
@@ -23,7 +23,7 @@
   .wm-rl-bt-s {         writing-mode: rl-bt; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .wm-horizontal-tb-m { writing-mode: horizontal-tb; }
   .wm-rl-tb-m {         writing-mode: rl-tb; }
   .wm-vertical-lr-m {   writing-mode: vertical-lr; }
@@ -34,7 +34,7 @@
   .wm-rl-bt-m {         writing-mode: rl-bt; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .wm-horizontal-tb-l { writing-mode: horizontal-tb; }
   .wm-rl-tb-l {         writing-mode: rl-tb; }
   .wm-vertical-lr-l {   writing-mode: vertical-lr; }
