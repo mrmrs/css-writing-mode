@@ -1,38 +1,44 @@
 {
   "name": "css-writing-mode",
-  "style": "writing-mode.css",
-  "version": "1.0.7",
-  "homepage": "http://github.com/mrmrs/css-writing-mode",
-  "description": "Css module of single purpose classes for writing mode",
+  "version": "2.0.0",
+  "description": "Functional CSS for writing-mode",
+  "style": "dist/writing-mode.css",
+  "main": "dist/writing-mode.css",
+  "exports": {
+    ".": "./dist/writing-mode.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "writing-mode"
+    "writing-mode",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-writing-mode": {
+  "homepage": "https://github.com/mrmrs/css-writing-mode",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-writing-mode.git"
+    "url": "https://github.com/mrmrs/css-writing-mode.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-writing-mode/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-writing-mode/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
